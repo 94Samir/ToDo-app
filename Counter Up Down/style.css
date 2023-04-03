@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-counter {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+  width: 200px;
+  height: 100px;
+  margin: auto;
+
+  background-color: #000000;
+
+  font-family: "Orbitron", sans-serif;
+}
+
+.display-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.display-counter {
+  display: flex;
+  gap: 5px;
+  height: 50%;
+
+  font-size: 25px;
+  color: rgb(5, 230, 5);
+  justify-content: space-evenly;
+}
+.btn {
+  width: 50px;
+  height: 25px;
+}
+
+.btn svg {
+  align-self: center;
+  width: 40%;
+}
+
+.btn:hover {
+  background-color: aquamarine;
+}
+
+.input-menu {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(5, 230, 5);
+}
+#inputMin {
+  width: 20px;
+}
+
+#inputSec {
+  width: 20px;
+}
