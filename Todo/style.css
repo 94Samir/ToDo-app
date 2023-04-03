@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  margin-top: 5%;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: scroll;
+}
+
+.container-head {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.display-card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  margin-top: 20px;
+  box-shadow: inset 0px 0px 30px -22px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper-flex {
+  display: flex;
+  gap: 2px;
+}
+.time {
+  font-weight: bolder;
+}
+
+.display-card p {
+  margin-left: 15px;
+}
+
+.display-card button {
+  padding: 2px 15px;
+  color: black;
+  border-radius: 100px;
+}
